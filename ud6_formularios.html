@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Ejercicio 6 - Formularios</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="imgs/logo.png" alt="Logo Intalentia" ></a>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="ud1_introduccion.html">Ejercicio 1</a></li>
+        <li><a href="ud2_texto.html">Ejercicio 2</a></li>
+        <li><a href="ud3_enlace.html">Ejercicio 3</a></li>
+        <li><a href="ud4_imagenes.html">Ejercicio 4</a></li>
+        <li><a href="ud5_tablas.html">Ejercicio 5</a></li>
+        <li><a href="ud6_formularios.html">Ejercicio 6</a></li>
+        <li><a href="ud7_frames.html">Ejercicio 7</a></li>
+        <li><a href="ud8_introduccionCSS.html">Ejercicio 8</a></li>
+        <li><a href="ud9_alojamientoWeb.html">Ejercicio 9</a></li>
+      </ul>
+    </nav>
+    <div class="content-paragraph">
+      <h1>Formularios</h1>
+      <p>
+        Los formularios tienen muchas opciones. Conocerlas nos hará tener un formulario mejor preparado para las necesidades de nuestros
+        usuarios.
+      </p>
+      <form action="ud6_formularios.html">
+        <div class="campos">
+          <label for="nombre">Nombre: <input type="text" id="nombre" autocomplete="on"></label>
+          <label>Pais:
+            <select>
+              <optgroup label="Europa">
+                <option>España</option>
+                <option>Francia</option>
+                <option>Alemania</option>
+                <option>Portugal</option>
+              </optgroup>
+              <optgroup label="Asia">
+                <option>China</option>
+                <option>Pakistán</option>
+                <option>India</option>
+                <option>Mongolia</option>
+              </optgroup>
+              <optgroup label="África">
+                <option>Marruecos</option>
+                <option>Senegal</option>
+                <option>Camerún</option>
+                <option>Egipto</option>
+              </optgroup>
+              <optgroup label="América">
+                <option>Colombia</option>
+                <option>Brasil</option>
+                <option>Argentina</option>
+                <option>México</option>
+              </optgroup>
+              <optgroup label="Oceanía">
+                <option>Australia</option>
+                <option>Samoa</option>
+                <option>Nueva Zelanda</option>
+                <option>Papúa Nueva Guinea</option>
+              </optgroup>
+            </select></label>
+          <label for="terminos">Acepto términos y condiciones* <input type="checkbox" id="terminos" required></label>
+          <label for="spam">Deseo recibir información futura <input type="checkbox" id="spam" checked></label>
+          <input type="submit" value="Enviar" id="button">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

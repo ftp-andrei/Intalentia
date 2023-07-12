@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Ejercicio 4 - Imagenes</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="imgs/logo.png" alt="Logo Intalentia" ></a>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="ud1_introduccion.html">Ejercicio 1</a></li>
+        <li><a href="ud2_texto.html">Ejercicio 2</a></li>
+        <li><a href="ud3_enlace.html">Ejercicio 3</a></li>
+        <li><a href="ud4_imagenes.html">Ejercicio 4</a></li>
+        <li><a href="ud5_tablas.html">Ejercicio 5</a></li>
+        <li><a href="ud6_formularios.html">Ejercicio 6</a></li>
+        <li><a href="ud7_frames.html">Ejercicio 7</a></li>
+        <li><a href="ud8_introduccionCSS.html">Ejercicio 8</a></li>
+        <li><a href="ud9_alojamientoWeb.html">Ejercicio 9</a></li>
+      </ul>
+    </nav>
+    <div class="content-paragraph">
+      <h1>Imagenes</h1>
+      <p>
+        Las imágenes son los elementos multimedia más característicos de una página web. En un mundo tan visual como el actual, manejaremos una
+        cantidad enorme de imágenes. En cuanto al atributo alt de la etiqueta &lt;img&gt; tiene varios usos, algunos de los mas comunes son:
+      </p>
+      <ul>
+        <li>Accesibilidad</li>
+        <li>SEO</li>
+        <li>Descripción contextual</li>
+        <li>Cuando hay errores de carga</li>
+      </ul>
+      <p>Ejemplo de uso de la página <a href="https://www.image-map.net/" target="_blank">image-map</a> usando un mapa político de Europa</p>
+
+      <img src="./imgs/imagenEuropa.jpg" alt="Mapa político de Europa" usemap="#mapa-europa" id="imagenEuropa" >
+      <map name="mapa-europa">
+        <area
+          target="_blank"
+          alt="España"
+          title="España"
+          href="https://es.wikipedia.org/wiki/Espa%C3%B1a"
+          coords="188,644,176,669,215,682,202,763,225,787,281,773,383,719,353,666,270,650"
+          shape="poly">
+        <area
+          target="_blank"
+          alt="Reino Unido"
+          title="Reino Unido"
+          href="https://es.wikipedia.org/wiki/Reino_Unido"
+          coords="263,336,223,342,204,351,204,369,204,397,202,416,203,425,203,434,214,437,220,439,226,446,234,454,235,472,235,481,229,492,228,504,224,513,223,525,243,529,261,525,272,524,281,517,299,514,315,516,325,512,333,511,332,497,333,486,337,472,337,465,329,461,323,457,317,465,317,452,316,438,310,429,297,420,289,411,284,401,283,392,287,383,288,370,288,359,277,359,258,364,274,353,270,341"
+          shape="poly">
+        <area
+          target="_blank"
+          alt="Finlandia"
+          title="Finlandia"
+          href="https://es.wikipedia.org/wiki/Finlandia"
+          coords="566,78,576,87,593,97,601,105,605,124,609,145,610,162,614,173,609,185,602,195,597,207,591,216,588,228,578,230,578,246,581,260,583,271,587,288,596,294,611,299,619,299,624,307,644,299,667,298,677,295,690,286,701,274,708,264,717,237,722,220,709,210,699,210,708,197,705,188,694,186,694,174,693,165,692,153,692,143,684,135,678,128,685,116,690,105,682,98,677,91,676,82,673,66,672,59,665,53,656,48,648,37,637,44,626,46,626,59,626,72,615,81,606,80,599,82,593,73,586,66,570,66"
+          shape="poly">
+      </map>
+    </div>
+  </body>
+</html>
